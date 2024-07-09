@@ -1,0 +1,18 @@
+{
+  "name": "bed-ca1-shoelesshoe",
+  "version": "1.0.0",
+  "description": "BED CA1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init_tables": "node src/configs/initTables.js"
+  },
+  "author": "Randal Hong",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.3"
+  }
+}
